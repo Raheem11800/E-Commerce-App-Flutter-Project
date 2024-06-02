@@ -1,0 +1,60 @@
+class constants
+{
+   static final String Img_one = "assets/Images/Men.jpg";
+   static final String Img_two = "assets/Images/Kid.jpg";
+   static final String Img_three = "assets/Images/Women.jpg";
+   static final String Img_four = "assets/Images/Knitted.png";
+   static final String Img_five = "assets/Images/neckshirt.png";
+   static final String Img_six = "assets/Images/poloshirt.png";
+   static final String Img_seven = "assets/Images/trouser.png";
+   static final String Img_eight = "assets/Images/zaraTshirt.png";
+   static final String Img_nine = "assets/Images/Blouse.png";
+   static final String Logo = "assets/Images/logo.png";
+   static final String M1 = "assets/Images/ALL OVER PRINT POLO.png";
+   static final String M2 = "assets/Images/BASIC CREW NECK TSHIRT.png";
+   static final String M3 = "assets/Images/BASIC V NECK TSHIRT.png";
+   static final String M4 = "assets/Images/Casual Shirt Chambray Commando Green.png";
+   static final String M5 = "assets/Images/Chambray Orange.png";
+   static final String M6 = "assets/Images/Chambray Zinc.png";
+   static final String M7 = "assets/Images/GRAPHIC TSHIRT.png";
+   static final String M8 = "assets/Images/Half Sleeve Linen Black Skin Drawing.png";
+   static final String M9 = "assets/Images/Half Sleeve Linen Carmel Palm Tree.png";
+   static final String M10 = "assets/Images/Half Sleeve Linen Horizontal Blue Strip.png";
+   static final String M11 = "assets/Images/Half Sleeve Linen Olive Black Cheetah Print.png";
+   static final String M12 = "assets/Images/Half Sleeve Linen Silver Vector.png";
+   static final String M13 = "assets/Images/polo.png";
+   static final String M14 = "assets/Images/SLOGAN GRAPHIC TSHIRT.png";
+   static final String M15 = "assets/Images/Summerarrival.jpg";
+   static final String M16 = "assets/Images/Camel Print Texture.png";
+   static final String M17 = "assets/Images/Cargo Mustard Texture.png";
+   static final String M18 = "assets/Images/Chino Self Lining.png";
+   static final String M19 = "assets/Images/Chino Web Silver.png";
+   static final String M20 = "assets/Images/Jogger Navy Texture.png";
+   static final String M21 = "assets/Images/Jogger Denim Blue.png";
+   static final String W1 = "assets/Images/BASIC POPLIN.png";
+   static final String W2 = "assets/Images/ELASTICATED LEG JEANS.png";
+   static final String W3 = "assets/Images/GINGHAM CHECK SHIRT.png";
+   static final String W4 = "assets/Images/LINEN LEG PANTS.png";
+   static final String W5 = "assets/Images/POPLIN CROPPED SHIRT.png";
+   static final String W6 = "assets/Images/POPLIN SHIRT.png";
+   static final String W7 = "assets/Images/POPLIN TOP.png";
+   static final String W8 = "assets/Images/SUPER CROPPED SHIRT.png";
+   static final String W9 = "assets/Images/WIDE FLARED JEANS.png";
+   static final String W10 = "assets/Images/WIDE LEG JEANS.png";
+   static final String W11 = "assets/Images/WIDE LEG TROUSERS.png";
+   static final String W12 = "assets/Images/WIDE LEG.png";
+   static final String K1 = "assets/Images/YARN DYED STRIPE SHIRT.png";
+   static final String K2 = "assets/Images/SOLID CO ORD.png";
+   static final String K3 = "assets/Images/SHORTS SLEEVE LINEN SHIRT.png";
+   static final String K4 = "assets/Images/RELAXED BUTTONUP SHIRT.png";
+   static final String K5 = "assets/Images/NIGHT SUIT WITH GRAPHIC TEE.png";
+   static final String K6 = "assets/Images/GRAPHIC TANK TOP.png";
+   static final String K7 = "assets/Images/GRAPHIC SUIT.png";
+   static final String K8 = "assets/Images/CROCODILE PRINTED SUIT.png";
+   static final String K9 = "assets/Images/CONTRAST COLR SLOGAN PRINT T-SHIRT.png";
+   static final String K10 = "assets/Images/CHARACTER PRNT DENIM DUNGAREE.png";
+   static final String K11 = "assets/Images/BASIC RUFFLED SLEEVES BLOUSE.png";
+   static final String K12 = "assets/ANIMAL GRAPHC KNITTED SUIT.png";
+
+}
+

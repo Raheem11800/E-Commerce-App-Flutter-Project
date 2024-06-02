@@ -1,0 +1,151 @@
+name: project_03
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.31.1
+  firebase_auth: ^4.19.6
+  firebase_database: ^10.5.6
+  firebase_analytics: ^10.10.6
+  provider: ^5.0.0
+
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.6
+  fluttertoast: ^8.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^3.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  assets:
+    - assets/Images/Kid.jpg
+    - assets/Images/Men.jpg
+    - assets/Images/Women.jpg
+    - assets/Images/zaraTshirt.png
+    - assets/Images/Blouse.png
+    - assets/Images/logo.png
+    - assets/Images/ALL OVER PRINT POLO.png
+    - assets/Images/BASIC CREW NECK TSHIRT.png
+    - assets/Images/BASIC V NECK TSHIRT.png
+    - assets/Images/Casual Shirt Chambray Commando Green.png
+    - assets/Images/Chambray Orange.png
+    - assets/Images/Chambray Zinc.png
+    - assets/Images/GRAPHIC TSHIRT.png
+    - assets/Images/Half Sleeve Linen Black Skin Drawing.png
+    - assets/Images/Half Sleeve Linen Carmel Palm Tree.png
+    - assets/Images/Half Sleeve Linen Horizontal Blue Strip.png
+    - assets/Images/Half Sleeve Linen Olive Black Cheetah Print.png
+    - assets/Images/Half Sleeve Linen Silver Vector.png
+    - assets/Images/polo.png
+    - assets/Images/SLOGAN GRAPHIC TSHIRT.png
+    - assets/Images/Summerarrival.jpg
+    - assets/Images/Camel Print Texture.png
+    - assets/Images/Cargo Mustard Texture.png
+    - assets/Images/Chino Self Lining.png
+    - assets/Images/Chino Web Silver.png
+    - assets/Images/Jogger Navy Texture.png
+    - assets/Images/Jogger Denim Blue.png
+    - assets/Images/BASIC POPLIN.png
+    - assets/Images/ELASTICATED LEG JEANS.png
+    - assets/Images/GINGHAM CHECK SHIRT.png
+    - assets/Images/LINEN LEG PANTS.png
+    - assets/Images/POPLIN CROPPED SHIRT.png
+    - assets/Images/POPLIN SHIRT.png
+    - assets/Images/POPLIN TOP.png
+    - assets/Images/SUPER CROPPED SHIRT.png
+    - assets/Images/WIDE FLARED JEANS.png
+    - assets/Images/WIDE LEG JEANS.png
+    - assets/Images/WIDE LEG TROUSERS.png
+    - assets/Images/WIDE LEG.png
+    - assets/Images/YARN DYED STRIPE SHIRT.png
+    - assets/Images/SOLID CO ORD.png
+    - assets/Images/SHORTS SLEEVE LINEN SHIRT.png
+    - assets/Images/RELAXED BUTTONUP SHIRT.png
+    - assets/Images/NIGHT SUIT WITH GRAPHIC TEE.png
+    - assets/Images/GRAPHIC TANK TOP.png
+    - assets/Images/GRAPHIC SUIT.png
+    - assets/Images/CROCODILE PRINTED SUIT.png
+    - assets/Images/CONTRAST COLR SLOGAN PRINT T-SHIRT.png
+    - assets/Images/CHARACTER PRNT DENIM DUNGAREE.png
+    - assets/Images/BASIC RUFFLED SLEEVES BLOUSE.png
+    - assets/Images/ANIMAL GRAPHC KNITTED SUIT.png
+
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+fonts:
+     - family: Schyler
+       fonts:
+         - asset: fonts/Schyler-Regular.ttf
+         - asset: fonts/Schyler-Italic.ttf
+           style: italic
+     - family: Trajan Pro
+       fonts:
+         - asset: fonts/TrajanPro.ttf
+         - asset: fonts/TrajanPro_Bold.ttf
+           weight: 700
+
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
